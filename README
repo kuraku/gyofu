@@ -1,0 +1,16 @@
+Twitter / Wassr のマルチポストツールです。
+Ruby/Gtk を使用します。
+
+使い方: prop.xml のユーザ/パスワードを書き換えて、gyofu.rb を実行するだけです。
+
+オプション: 
+ since_hour: レスを何時間前からのものを表示
+ replies_cnt: 時間の指定の上、表示する件数
+ check_replies: レスをチェックするか true or false
+ sirent: サイレントモード true or false
+
+--
+Twitter / Wassr 's  multi post tool.
+Ruby / Gtk to use.
+
+How to use: prop.xml user / password changing, gyofu.rb just run.

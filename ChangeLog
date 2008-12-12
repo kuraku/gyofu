@@ -1,0 +1,72 @@
+2008-10-24  MASUDA Akira  <masuda@stylo-sd.com>
+
+	* gyofu.rb (wtpost): レスをキャッシュして、一度表示したものは出さない
+
+	* ログの表示をコンパクトにした
+
+2008-10-23  MASUDA Akira  <masuda@stylo-sd.com>
+
+	* 綴り間違いの修正
+
+2008-10-21  MASUDA Akira  <masuda@stylo-sd.com>
+
+	* xml のプロパティを $prop へまとめた
+
+	* sirent を追加。ログ出力を少なくするモード
+
+	* レスを簡潔に表示できるよう [W][T] を付けるようにした
+
+	* twitter の名前表示に間違いがあった screen_name を表示する様修正
+
+2008-09-29  MASUDA Akira  <masuda@stylo-sd.com>
+
+	* レス表示の修正。@user を表示してレスし易くする
+
+	* プロパティに check_replies を追加、レスチェックするか?
+
+2008-09-25  MASUDA Akira  <masuda@stylo-sd.com>
+
+	* gyofu.rb: レスの処理。何時間前までのものを幾つ表示するかを prop.xml にて指定
+
+	* gyofu.rb (wtpost): Res のチェックをできるようにする
+
+2008-09-24  MASUDA Akira  <masuda@stylo-sd.com>
+
+	* gyofu.rb (wtpost): log 日付を出した
+
+2008-09-17  MASUDA Akira  <masuda@stylo-sd.com>
+
+	* README の変更
+
+2008-09-12  MASUDA Akira  <masuda@stylo-sd.com>
+
+	* Icon を追加。絵は適当です。変えよう
+
+	* API 呼び出し部分を整理
+
+2008-09-11  MASUDA Akira  <masuda@stylo-sd.com>
+
+	* I/F をけっこう修正した。ウィンドウサイズ変更時ログ部分のみ伸びるようにする
+
+2008-09-10  MASUDA Akira  <masuda@stylo-sd.com>
+
+	* ログが流れて行くようにした、最新のものはトップに追加される
+
+	* ログにスクロールバーを付けた
+
+2008-09-09  MASUDA Akira  <masuda@stylo-sd.com>
+
+	* カレントパスで実行しなくても良いように、実行コマンドと同じ *.rb を呼び出す
+
+2008-09-04  MASUDA Akira  <masuda@stylo-sd.com>
+
+	* tag 0.0.1 を打つ。ポスト専門 Ver
+
+	* 文字数をカウント表示、他。shell も追加
+
+	* ユーザとパスワードを xml で外出し ./prop.xml
+
+	* 結果をログ的に表示するようにした。puts の出力を制御するために debug() を追加
+
+	* init とりあえず twitter wassr への投稿ができた
+

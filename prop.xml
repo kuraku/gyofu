@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<prop>
+  <since_hour>6</since_hour>
+  <replies_cnt>20</replies_cnt>
+  <check_replies>true</check_replies>
+  <silent>true</silent>
+  <Twitter>
+	<user>twitter-user</user>
+	<passwd>twitter-passwd</passwd>
+  </Twitter>
+  <Wassr>
+	<user>wassr-user</user>
+	<passwd>wassr-passwd</passwd>
+  </Wassr>
+</prop>
